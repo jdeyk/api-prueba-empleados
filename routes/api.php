@@ -4,9 +4,6 @@ use App\Http\Controllers\DepartamentoController;
 use App\Http\Controllers\EmpleadoController;
 use Illuminate\Support\Facades\Route;
 
-
-// correr con flutter  php artisan serve --host=0.0.0.0 --port=8000
-
 Route::get('/', function () {
     return response()->json('API', 200);
 });

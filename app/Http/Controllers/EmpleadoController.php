@@ -75,7 +75,7 @@ class EmpleadoController extends Controller
             'fullname' => 'required|string|max:150',
             'correo' => 'required|email|max:150',
             'fecha_nacimiento' => 'nullable|date',
-            'isActivo' => 'required|boolean',
+            'isActivo' => 'required|int',
             'departamento_id' => 'required|exists:departamentos,id',
         ]);
 
